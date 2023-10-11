@@ -28,4 +28,4 @@ production:
   database: keisuke0308
   username: keisuke0308_user
   password: <%= ENV['MYSITE_DATABASE_PASSWORD'] %>
-  url: <%= ENV['DATABASE_URL'] %># database: db/production.sqlite3
+  url: <%= ENV['DATABASE_URL'] %>
